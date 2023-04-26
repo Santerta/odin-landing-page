@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    
+}
+
+.header-links {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    display: flex;
+}
