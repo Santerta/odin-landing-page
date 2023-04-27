@@ -93,7 +93,7 @@ header {
 }
 
 .header-bottom-image {
-    flex: 2;
+    flex: 1.6;
     display: flex;
     justify-content: flex-end;
 }
@@ -108,8 +108,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0px;
-    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    gap: 20px;
 }
 
 .cards.wrapper h2 {
@@ -121,17 +122,21 @@ header {
 
 .illustrations-and-texts {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
 .illustrations-and-texts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     max-width: 200px;
 }
 
 .illustrations-and-texts div img {
     height: auto;
-    max-width: 200px;
+    max-width: 180px;
     border-radius: 25%;
     border: 5px solid #3882f6;
 }
@@ -140,4 +145,31 @@ header {
     margin: 0px;
     color: #1F2937;
     text-align: center;
+}
+
+/* quote section */
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-section div {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 10px;
+}
+
+.quote-section div p {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoter {
+    align-self: flex-end;
+    font-weight: bold;
 }
