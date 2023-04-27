@@ -14,8 +14,8 @@ footer {
 }
 
 .wrapper {
-    max-width: 1200px;
     margin: auto;
+    max-width: 80%;
 }
 
 /* header */
@@ -56,7 +56,7 @@ header {
 /* bottom part of header*/
 
 .header-bottom {
-    padding: 40px 0px;
+    padding: 60px 0px;
     display: flex;
 
     align-items: center;
@@ -102,4 +102,42 @@ header {
     border-radius: 50%;
 }
 
+/* cards section */
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 40px;
+}
+
+.cards.wrapper h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.illustrations-and-texts {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.illustrations-and-texts div {
+    max-width: 200px;
+}
+
+.illustrations-and-texts div img {
+    height: auto;
+    max-width: 200px;
+    border-radius: 25%;
+    border: 5px solid #3882f6;
+}
+
+.illustrations-and-texts div p {
+    margin: 0px;
+    color: #1F2937;
+    text-align: center;
+}
